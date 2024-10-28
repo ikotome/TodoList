@@ -5,7 +5,7 @@
 # `$XDG_CONFIG_HOME/git/ignore` or `~/.config/git/ignore`
 
 # Ignore bundler config.
-/bin/*
+bin
 /.bundle
 
 # Ignore all environment files (except templates).
@@ -13,11 +13,10 @@
 !/.env*.erb
 
 # Ignore all logfiles and tempfiles.
-/log/*
-
+log
 
 # Ignore pidfiles, but keep the directory.
-/tmp/*
+tmp
 
 
 # Ignore storage (uploaded files in development and any SQLite databases).
